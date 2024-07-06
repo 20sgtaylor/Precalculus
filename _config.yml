@@ -5,7 +5,7 @@ baseurl: /Precalc # the subpath of your site, e.g. /blog
 url: https://baytech.org
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
-logo: "./assets/images/bjc.png"
+logo: #to be changed to baytech logo"./assets/images/bjc.png"
 
 # Theme settings
 remote_theme: pmarsceill/just-the-docs@v0.3.3
@@ -16,8 +16,8 @@ permalink: pretty
 aux_links_new_tab: true
 ga_tracking: UA-47210910-1
 external_navigation: #for later access to things
-  - title: Snap!
-    url: https://snap.berkeley.edu/run
+#later  - title: Snap!
+#later    url: https://snap.berkeley.edu/run
 
 footer_content:
 
@@ -31,8 +31,8 @@ endDate:   2025-06-05 # Last Saturday
 
 # Change the calendar to show Sun-Sat instead of M-F when an exam is near
 test1Date: 2024-10-01
-test2Date: 2016-11-16
-finalDate: 2016-12-18
+test2Date: 2024-11-16
+finalDate: 2024-12-18
 # from console.developers.google.com
 # This key can be public and is tied to a users calendar accesses
 # whoever this key belongs to should have access to the CS10 galendars.
